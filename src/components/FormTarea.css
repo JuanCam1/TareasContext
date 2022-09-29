@@ -1,0 +1,68 @@
+
+.tareaForm {
+  padding: 20px;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.tareaForm > div {
+  width: 100%;
+  text-align: center;
+}
+
+.formTodo {
+  padding: 20px;
+}
+
+.tareaForm .formTodo div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 8px;
+}
+.tareaForm .formTodo input[type='text'],
+.tareaForm .formTodo textarea {
+  width: 100%;
+  border: 1px solid #cecece;
+  border-radius: 3px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.tareaForm .formTodo input[type='text'] {
+  height: 30px;
+}
+
+.tareaForm .formTodo textarea {
+  height: 80px;
+  resize: none;
+}
+
+.tareaForm .formTodo input[type='text']:focus,
+.tareaForm .formTodo textarea:focus {
+  border-color: rgb(0, 110, 255);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+    0 0 2px rgba(0, 119, 255, 0.6);
+  outline: 0 none;
+}
+
+.tareaForm .formTodo button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  text-transform: capitalize;
+  font-size: 14px;
+  background-color: #6cb14b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.tareaForm .formTodo button:hover {
+  background-color: #3b6e22;
+}

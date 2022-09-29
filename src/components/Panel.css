@@ -1,0 +1,16 @@
+.appTareas {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.appTareas > div {
+  width: 50%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-content: center center;
+  gap: 16px;
+}
+

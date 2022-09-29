@@ -1,0 +1,56 @@
+.tareaList {
+  height: 50vh;
+  padding: 20px;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.tareaList > div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid #adadad;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.tareaListTitle h3 {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.tareaListTitle span {
+  font-size: 14px;
+}
+.tareaListBody p {
+  margin-bottom: 8px;
+}
+
+.tareaListButton {
+  display: flex;
+  gap: 8px;
+}
+
+.tareaListButton button {
+  padding: 4px 10px;
+  text-transform: capitalize;
+  font-size: 14px;
+  background-color: #f78527;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tareaListButton button:hover {
+  background-color: #d66f1b;
+}
+
+.tareaListButton button:last-child {
+  background-color: #f32727;
+}
+.tareaListButton button:last-child:hover {
+  background-color: #b31919;
+}
